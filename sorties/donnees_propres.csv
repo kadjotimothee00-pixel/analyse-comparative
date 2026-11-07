@@ -1,0 +1,77 @@
+﻿source;ref_source;designation_brute;designation;prix_affiche;frais_livraison;remise_pct;prix_paye;stock;statut_stock;disponible;retrait_boutique;note_clients;nb_avis;prix_corrige;exploitable;produit_id;nom_catalogue;score_rapprochement
+Marché Lagune;ML-1000;SAMSUNG GALAXY A15 (128GB);SAMSUNG GALAXY A15 (128GB);102900;0;0;102900;;Rupture;False;False;4,0;103;False;False;P01;Samsung Galaxy A15 128 Go;5
+Marché Lagune;ML-1007;SAMSUNG GALAXY A25 (128GB);SAMSUNG GALAXY A25 (128GB);151500;0;0;151500;;En stock;True;False;3,4;76;False;True;P02;Samsung Galaxy A25 128 Go;5
+Marché Lagune;ML-1014;SAMSUNG GALAXY A55 (256GB);SAMSUNG GALAXY A55 (256GB);288100;0;0;288100;;Rupture;False;False;4,8;184;False;False;P03;Samsung Galaxy A55 256 Go;5
+Marché Lagune;ML-1021;TECNO SPARK 20 - 128GB;TECNO SPARK 20 - 128GB;77900;0;0;77900;;En stock;True;False;4,2;254;True;True;P04;Tecno Spark 20 128 Go;5
+Marché Lagune;ML-1028;TECNO CAMON 30 - 256GB;TECNO CAMON 30 - 256GB;136900;0;0;136900;;Stock limité;True;False;4,8;148;False;True;P05;Tecno Camon 30 256 Go;5
+Marché Lagune;ML-1035;INFINIX HOT 40I 128GB;INFINIX HOT 40I 128GB;69200;0;0;69200;;En stock;True;False;4,6;224;False;True;P06;Infinix Hot 40i 128 Go;5
+Marché Lagune;ML-1042;INFINIX NOTE 40 256GB;INFINIX NOTE 40 256GB;132400;0;0;132400;;En stock;True;False;4,8;217;False;True;P07;Infinix Note 40 256 Go;5
+Marché Lagune;ML-1049;ITEL A70 64GB;ITEL A70 64GB;45700;0;0;45700;;Rupture;False;False;4,4;255;False;False;P08;Itel A70 64 Go;4
+Marché Lagune;ML-1056;IPHONE 13 128GB;IPHONE 13 128GB;433700;0;0;433700;;En stock;True;False;4,0;230;False;True;P09;Apple iPhone 13 128 Go;4
+Marché Lagune;ML-1063;XIAOMI REDMI NOTE 13 128GB;XIAOMI REDMI NOTE 13 128GB;136900;0;0;136900;;En stock;True;False;4,2;42;False;True;P10;Xiaomi Redmi Note 13 128 Go;6
+Marché Lagune;ML-1070;PC PORTABLE HP 250 G9 I5 8GB/512GB;PC PORTABLE HP 250 G9 I5 8GB/512GB;390800;0;0;390800;;En stock;True;False;4,5;137;False;True;P11;HP 250 G9 Core i5 8 Go 512 Go;7
+Marché Lagune;ML-1077;PC PORTABLE LENOVO IDEAPAD 3 I3 8GB/256GB;PC PORTABLE LENOVO IDEAPAD 3 I3 8GB/256GB;309400;0;0;309400;;En stock;True;False;4,3;393;False;True;P12;Lenovo IdeaPad 3 Core i3 8 Go 256 Go;7
+Marché Lagune;ML-1084;PC PORTABLE DELL INSPIRON 15 I5 16GB/512GB;PC PORTABLE DELL INSPIRON 15 I5 16GB/512GB;442900;0;0;442900;;Rupture;False;False;4,8;279;False;False;P13;Dell Inspiron 15 Core i5 16 Go 512 Go;7
+Marché Lagune;ML-1091;CLE USB SANDISK 64GB;CLE USB SANDISK 64GB;6100;0;0;6100;;En stock;True;False;3,6;306;False;True;P14;Clé USB SanDisk 64 Go;5
+Marché Lagune;ML-1098;DISQUE DUR EXTERNE SEAGATE 1TB;DISQUE DUR EXTERNE SEAGATE 1TB;37600;0;0;37600;;En stock;True;False;4,8;401;False;True;P15;Disque dur externe Seagate 1 To;6
+Marché Lagune;ML-1105;  souris sans fil logitech m185 ;souris sans fil logitech m185;9200;0;0;9200;;En stock;True;False;4,0;76;False;True;P16;Souris sans fil Logitech M185;3
+Marché Lagune;ML-1112;IMPRIMANTE HP DESKJET 2720E;IMPRIMANTE HP DESKJET 2720E;44000;0;0;44000;;En stock;True;False;4,8;199;False;True;P17;Imprimante HP DeskJet 2720e;4
+Marché Lagune;ML-1119;"ECRAN SAMSUNG 24""";"ECRAN SAMSUNG 24""";;0;0;;;En stock;True;False;3,9;394;False;False;P19;Écran Samsung 24 pouces;4
+Marché Lagune;ML-1126;REFRIGERATEUR HISENSE 205L;REFRIGERATEUR HISENSE 205L;186100;0;0;186100;;En stock;True;False;4,4;230;False;True;P20;Réfrigérateur Hisense 205 L;4
+Marché Lagune;ML-1133;CONGELATEUR NASCO 200L;CONGELATEUR NASCO 200L;176000;0;0;176000;;En stock;True;False;4,1;238;False;True;P21;Congélateur Nasco 200 L;4
+Marché Lagune;ML-1140;"TV SAMSUNG 43"" CRYSTAL UHD 4K";"TV SAMSUNG 43"" CRYSTAL UHD 4K";251100;0;0;251100;;En stock;True;False;4,1;172;False;True;P22;TV Samsung 43 pouces Crystal UHD;5
+Marché Lagune;ML-1147;"TV HISENSE 32""";"TV HISENSE 32""";97300;0;0;97300;;Rupture;False;False;4,4;35;False;False;P23;TV Hisense 32 pouces;4
+Marché Lagune;ML-1154;CLIMATISEUR LG 1CV;CLIMATISEUR LG 1CV;256600;0;0;256600;;Stock limité;True;False;3,7;331;False;True;P24;Climatiseur LG 1 CV;4
+Marché Lagune;ML-1161;"VENTILATEUR BINATONE 16""";"VENTILATEUR BINATONE 16""";21800;0;0;21800;;En stock;True;False;4,5;96;False;True;P25;Ventilateur sur pied Binatone 16 pouces;4
+Marché Lagune;ML-1168;MIXEUR MOULINEX 1.5L;MIXEUR MOULINEX 1.5L;;0;0;;;Rupture;False;False;4,7;66;False;False;P26;Mixeur Moulinex 1,5 L;4
+Marché Lagune;ML-1175;FER A REPASSER PHILIPS;FER A REPASSER PHILIPS;15700;0;0;15700;;En stock;True;False;4,2;70;False;True;P27;Fer à repasser Philips;3
+Marché Lagune;ML-1182;MICRO-ONDES SAMSUNG 23L;MICRO-ONDES SAMSUNG 23L;67200;0;0;67200;;En stock;True;False;3,7;139;False;True;P28;Micro-ondes Samsung 23 L;5
+Marché Lagune;ML-1189;CLIMATISEUR HISENSE 1.5CV;CLIMATISEUR HISENSE 1.5CV;309700;0;0;309700;;Stock limité;True;False;4,7;196;False;True;P30;Climatiseur Hisense 1,5 CV;4
+Baobab Shop;BB01412;Galaxy A15 128GB - Samsung;Galaxy A15 128GB - Samsung;102500;1500;0;104000;5;En stock;True;False;3,5;475;False;True;P01;Samsung Galaxy A15 128 Go;5
+Baobab Shop;BB02609;Galaxy A25 128GB - Samsung;Galaxy A25 128GB - Samsung;140500;1500;0;142000;60;En stock;True;False;3,69;181;False;True;P02;Samsung Galaxy A25 128 Go;5
+Baobab Shop;BB03433;Galaxy A55 256GB - Samsung;Galaxy A55 256GB - Samsung;273800;0;0;273800;0;Rupture;False;False;3,96;539;False;False;P03;Samsung Galaxy A55 256 Go;5
+Baobab Shop;BB04915;Spark 20 128GB - Tecno;Spark 20 128GB - Tecno;73500;1500;0;75000;20;En stock;True;False;4,59;868;False;True;P04;Tecno Spark 20 128 Go;5
+Baobab Shop;BB05319;Camon 30 256GB - Tecno;Camon 30 256GB - Tecno;133900;1500;0;135400;5;En stock;True;False;4,82;899;False;True;P05;Tecno Camon 30 256 Go;5
+Baobab Shop;BB06565;Hot 40i 128GB - Infinix;Hot 40i 128GB - Infinix;68000;1500;0;69500;35;En stock;True;False;3,89;802;False;True;P06;Infinix Hot 40i 128 Go;5
+Baobab Shop;BB07953;Note 40 256GB - Infinix;Note 40 256GB - Infinix;131200;1500;0;132700;60;En stock;True;False;3,51;27;False;True;P07;Infinix Note 40 256 Go;5
+Baobab Shop;BB09460;iPhone 13 128GB - Apple;iPhone 13 128GB - Apple;417200;0;0;417200;60;En stock;True;False;3,8;703;False;True;P09;Apple iPhone 13 128 Go;5
+Baobab Shop;BB10686;Redmi Note 13 128GB - Xiaomi;Redmi Note 13 128GB - Xiaomi;132600;1500;0;134100;60;En stock;True;False;3,57;635;False;True;P10;Xiaomi Redmi Note 13 128 Go;6
+Baobab Shop;BB11833;HP Laptop 250 G9 (i5, 8GB, 512GB SSD);HP Laptop 250 G9 (i5, 8GB, 512GB SSD);354200;0;0;354200;8;En stock;True;False;4,48;748;False;True;P11;HP 250 G9 Core i5 8 Go 512 Go;7
+Baobab Shop;BB12319;Lenovo IdeaPad 3 (i3, 8GB, 256GB SSD);Lenovo IdeaPad 3 (i3, 8GB, 256GB SSD);298200;0;0;298200;20;En stock;True;False;4,16;686;False;True;P12;Lenovo IdeaPad 3 Core i3 8 Go 256 Go;7
+Baobab Shop;BB14669;SanDisk Ultra USB 64GB;SanDisk Ultra USB 64GB;5800;1500;0;7300;5;En stock;True;False;4,53;98;False;True;P14;Clé USB SanDisk 64 Go;4
+Baobab Shop;BB15546;Seagate Expansion 1TB;Seagate Expansion 1TB;36800;1500;0;38300;5;En stock;True;False;4,36;777;False;True;P15;Disque dur externe Seagate 1 To;3
+Baobab Shop;BB16464;Logitech M185 Wireless Mouse;Logitech M185 Wireless Mouse;8700;1500;0;10200;0;Rupture;False;False;4,3;108;False;False;P16;Souris sans fil Logitech M185;3
+Baobab Shop;BB17618;HP DeskJet 2720e Printer;HP DeskJet 2720e Printer;44200;1500;0;45700;8;En stock;True;False;4,2;65;False;True;P17;Imprimante HP DeskJet 2720e;4
+Baobab Shop;BB18398;TP-Link Archer C6 AC1200;TP-Link Archer C6 AC1200;27300;1500;0;28800;8;En stock;True;False;3,64;64;False;True;P18;Routeur TP-Link Archer C6;3
+Baobab Shop;BB19114;"Samsung 24"" Monitor";"Samsung 24"" Monitor";89300;1500;0;90800;12;En stock;True;False;3,9;15;False;True;P19;Écran Samsung 24 pouces;4
+Baobab Shop;BB20158;Hisense Fridge 205L;Hisense Fridge 205L;180500;2500;0;183000;3;En stock;True;False;3,24;125;False;True;P20;Réfrigérateur Hisense 205 L;4
+Baobab Shop;BB22196;"Samsung 43"" Crystal UHD TV";"Samsung 43"" Crystal UHD TV";244400;0;0;244400;35;En stock;True;False;4,18;878;False;True;P22;TV Samsung 43 pouces Crystal UHD;6
+Baobab Shop;BB23458;"Hisense 32"" TV";"Hisense 32"" TV";93500;2500;0;96000;8;En stock;True;False;4,23;670;False;True;P23;TV Hisense 32 pouces;4
+Baobab Shop;BB24831;LG Air Conditioner 1HP;LG Air Conditioner 1HP;253300;0;0;253300;20;En stock;True;False;4,77;323;False;True;P24;Climatiseur LG 1 CV;4
+Baobab Shop;BB26722;Moulinex Blender 1.5L;Moulinex Blender 1.5L;28400;2500;0;30900;5;En stock;True;False;3,99;692;False;True;P26;Mixeur Moulinex 1,5 L;4
+Baobab Shop;BB27999;Philips Steam Iron;Philips Steam Iron;;2500;0;;3;En stock;True;False;3,84;513;False;False;P27;Fer à repasser Philips;2
+Baobab Shop;BB28797;Samsung Microwave 23L;Samsung Microwave 23L;62900;2500;0;65400;8;En stock;True;False;3,7;836;False;True;P28;Micro-ondes Samsung 23 L;5
+Baobab Shop;BB29464;Electric Kettle 1.7L;Electric Kettle 1.7L;9100;2500;0;11600;3;En stock;True;False;4,42;899;False;True;P29;Bouilloire électrique 1,7 L;4
+Baobab Shop;BB30124;Hisense Air Conditioner 1.5HP;Hisense Air Conditioner 1.5HP;287100;0;0;287100;0;Rupture;False;False;3,76;744;False;False;P30;Climatiseur Hisense 1,5 CV;4
+Comptoir Ivoire;CI200;Samsun Galaxy A15 128Go;Samsun Galaxy A15 128Go;109400;0;15;92990;25;En stock;True;True;;;False;True;P01;Samsung Galaxy A15 128 Go;5
+Comptoir Ivoire;CI201;Samsung A25 128Go;Samsung A25 128Go;150300;0;0;150300;24;En stock;True;True;;;False;True;P02;Samsung Galaxy A25 128 Go;4
+Comptoir Ivoire;CI202;Tecno Spark 20;Tecno Spark 20;76300;0;0;76300;18;En stock;True;True;;;False;True;P04;Tecno Spark 20 128 Go;3
+Comptoir Ivoire;CI203;Infinix Hot 40i;Infinix Hot 40i;70700;0;5;67165;10;En stock;True;True;;;False;True;P06;Infinix Hot 40i 128 Go;3
+Comptoir Ivoire;CI204;Itel A70;Itel A70;45200;0;5;42940;1;En stock;True;True;;;False;True;P08;Itel A70 64 Go;2
+Comptoir Ivoire;CI205;iPhone 13 128Go;iPhone 13 128Go;443700;0;0;443700;19;En stock;True;True;;;False;True;P09;Apple iPhone 13 128 Go;4
+Comptoir Ivoire;CI206;HP 250 G9 i5;HP 250 G9 i5;407000;0;0;407000;1;En stock;True;True;;;False;True;P11;HP 250 G9 Core i5 8 Go 512 Go;4
+Comptoir Ivoire;CI207;Lenovo IdeaPad 3 i3;Lenovo IdeaPad 3 i3;302500;0;5;287375;11;En stock;True;True;;;False;True;P12;Lenovo IdeaPad 3 Core i3 8 Go 256 Go;4
+Comptoir Ivoire;CI208;Dell Inspiron 15 i5;Dell Inspiron 15 i5;451400;0;10;406260;20;En stock;True;True;;;False;True;P13;Dell Inspiron 15 Core i5 16 Go 512 Go;4
+Comptoir Ivoire;CI209;Clé USB SanDisk 64Go;Clé USB SanDisk 64Go;6200;0;0;6200;13;En stock;True;True;;;False;True;P14;Clé USB SanDisk 64 Go;5
+Comptoir Ivoire;CI210;DD externe Seagate 1To;DD externe Seagate 1To;39500;0;0;39500;11;En stock;True;True;;;False;True;P15;Disque dur externe Seagate 1 To;6
+Comptoir Ivoire;CI211;Souris Logitech M185;Souris Logitech M185;9200;0;0;9200;12;En stock;True;True;;;False;True;P16;Souris sans fil Logitech M185;3
+Comptoir Ivoire;CI212;Frigo Hisense 205L;Frigo Hisense 205L;198100;0;15;168385;13;En stock;True;True;;;False;True;P20;Réfrigérateur Hisense 205 L;4
+Comptoir Ivoire;CI213;Congélateur Nasco 200L;Congélateur Nasco 200L;178500;0;15;151725;4;En stock;True;True;;;False;True;P21;Congélateur Nasco 200 L;4
+Comptoir Ivoire;CI214;"TV Samsung 43""";"TV Samsung 43""";254000;0;5;241300;0;Rupture;False;True;;;False;False;P22;TV Samsung 43 pouces Crystal UHD;4
+Comptoir Ivoire;CI215;"TV Hisense 32""";"TV Hisense 32""";98600;0;10;88740;17;En stock;True;True;;;False;True;P23;TV Hisense 32 pouces;4
+Comptoir Ivoire;CI216;Clim LG 1CV;Clim LG 1CV;279300;0;0;279300;25;En stock;True;True;;;False;True;P24;Climatiseur LG 1 CV;4
+Comptoir Ivoire;CI217;"Ventilo Binatone 16""";"Ventilo Binatone 16""";23700;0;0;23700;0;Rupture;False;True;;;False;False;P25;Ventilateur sur pied Binatone 16 pouces;4
+Comptoir Ivoire;CI218;Mixeur Moulinex;Mixeur Moulinex;29200;0;0;29200;17;En stock;True;True;;;False;True;P26;Mixeur Moulinex 1,5 L;2
+Comptoir Ivoire;CI219;Fer Philips;Fer Philips;15700;0;0;15700;8;En stock;True;True;;;False;True;P27;Fer à repasser Philips;2
+Comptoir Ivoire;CI220;Micro-ondes Samsung 23L;Micro-ondes Samsung 23L;68500;0;0;68500;20;En stock;True;True;;;False;True;P28;Micro-ondes Samsung 23 L;5
+Comptoir Ivoire;CI221;Bouilloire 1,7L;Bouilloire 1,7L;9200;0;0;9200;5;En stock;True;True;;;False;True;P29;Bouilloire électrique 1,7 L;3

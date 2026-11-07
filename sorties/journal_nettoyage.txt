@@ -1,0 +1,54 @@
+JOURNAL DE NETTOYAGE - Analyse comparative de marché
+45 entrées : 3 correction(s), 16 exclusion(s), 1 alerte(s), 25 information(s)
+Niveaux : INFO (observation), CORRECTION (valeur corrigée), EXCLUSION (article non retenu), ALERTE (anomalie signalée).
+
+=== Étape : Nettoyage ===
+[INFO      ] Marché Lagune : 30 lignes lues (CSV, séparateur ';', BOM UTF-8 retiré à la lecture).
+[INFO      ] Marché Lagune : ML-1105 : espaces superflus autour de la désignation '  souris sans fil logitech m185 ', supprimés (la casse est ignorée au rapprochement).
+[EXCLUSION ] Marché Lagune : ML-1000 (SAMSUNG GALAXY A15 (128GB)) : ligne en double (identique à une ligne précédente), supprimée.
+[EXCLUSION ] Marché Lagune : ML-1147 (TV HISENSE 32") : ligne en double (identique à une ligne précédente), supprimée.
+[INFO      ] Marché Lagune : Colonne 'prix' au format texte avec séparateur de milliers et unité 'FCFA' (ex. '102 900 FCFA') : convertie en nombre.
+[INFO      ] Marché Lagune : 26 prix utilisent l'espace insécable fine (code U+202F) comme séparateur de milliers : retirée avant la conversion (un simple split sur l'espace normale ne suffirait pas).
+[EXCLUSION ] Marché Lagune : ML-1119 (ECRAN SAMSUNG 24") : prix non numérique 'Prix sur demande', article sans prix exploitable. L'ancien_prix (110 400 FCFA) est un prix barré, pas un prix de vente : ignoré.
+[EXCLUSION ] Marché Lagune : ML-1168 (MIXEUR MOULINEX 1.5L) : prix absent, article sans prix exploitable.
+[ALERTE    ] Marché Lagune : ML-1021 (TECNO SPARK 20 - 128GB) : ancien_prix (88 700 FCFA) inférieur au prix affiché (779 000 FCFA), prix suspect (voir le contrôle de cohérence).
+[EXCLUSION ] Marché Lagune : ML-1000 (SAMSUNG GALAXY A15 (128GB)) : en rupture de stock, non retenu comme offre.
+[EXCLUSION ] Marché Lagune : ML-1014 (SAMSUNG GALAXY A55 (256GB)) : en rupture de stock, non retenu comme offre.
+[EXCLUSION ] Marché Lagune : ML-1049 (ITEL A70 64GB) : en rupture de stock, non retenu comme offre.
+[EXCLUSION ] Marché Lagune : ML-1084 (PC PORTABLE DELL INSPIRON 15 I5 16GB/512GB) : en rupture de stock, non retenu comme offre.
+[EXCLUSION ] Marché Lagune : ML-1147 (TV HISENSE 32") : en rupture de stock, non retenu comme offre.
+[EXCLUSION ] Marché Lagune : ML-1168 (MIXEUR MOULINEX 1.5L) : en rupture de stock, non retenu comme offre.
+[INFO      ] Marché Lagune : 3 articles en 'Stock limité' (ML-1028, ML-1154, ML-1189) : conservés comme disponibles.
+[INFO      ] Marché Lagune : Colonne 'note_clients' avec virgule décimale (ex. '4,0') : convertie en nombre.
+[INFO      ] Marché Lagune : Le prix affiché inclut déjà la livraison : prix payé = prix affiché.
+[INFO      ] Baobab Shop : 26 articles lus (JSON de l'application, structure imbriquée aplatie : pricing.* et rating.*).
+[INFO      ] Baobab Shop : Nombre d'articles conforme à l'en-tête du JSON (26).
+[INFO      ] Baobab Shop : Toutes les valeurs sont en XOF (équivalent du FCFA).
+[EXCLUSION ] Baobab Shop : BB27999 (Philips Steam Iron) : montant absent (null), article sans prix exploitable.
+[EXCLUSION ] Baobab Shop : BB03433 (Galaxy A55 256GB - Samsung) : stock = 0, non retenu comme offre.
+[EXCLUSION ] Baobab Shop : BB16464 (Logitech M185 Wireless Mouse) : stock = 0, non retenu comme offre.
+[EXCLUSION ] Baobab Shop : BB30124 (Hisense Air Conditioner 1.5HP) : stock = 0, non retenu comme offre.
+[INFO      ] Baobab Shop : 8 articles vendus par des partenaires et 18 par Baobab Shop : tous conservés.
+[INFO      ] Baobab Shop : Titres en anglais et structure différente des autres sources : traités au rapprochement.
+[INFO      ] Baobab Shop : Prix payé = amount + delivery_fee.
+[INFO      ] Comptoir Ivoire : Feuille Excel : titre en ligne 1 et ligne vide ignorés, en-têtes en ligne 3, données à partir de la ligne 4.
+[INFO      ] Comptoir Ivoire : 22 articles lus.
+[CORRECTION] Comptoir Ivoire : CI216 (Clim LG 1CV) : prix catalogue saisi comme texte '279 300', converti en nombre (279 300). Le séparateur de milliers est une espace insécable (U+202F ou U+00A0).
+[INFO      ] Comptoir Ivoire : 9 articles avec une remise (de 5 % à 15 %) : le prix payé est le prix catalogue diminué de la remise.
+[EXCLUSION ] Comptoir Ivoire : CI214 (TV Samsung 43") : quantité en rayon = 0, non retenu comme offre.
+[EXCLUSION ] Comptoir Ivoire : CI217 (Ventilo Binatone 16") : quantité en rayon = 0, non retenu comme offre.
+[INFO      ] Comptoir Ivoire : Dates de mise à jour comprises entre le 03/10/2026 et le 31/10/2026 : prix relevés à des dates différentes, conservés tels quels.
+[INFO      ] Comptoir Ivoire : Boutique physique : retrait sur place, aucun frais de livraison ajouté (le coût du déplacement n'est pas compté).
+[INFO      ] Comptoir Ivoire : Rayons (Informatique, Maison, Téléphonie) différents des catégories du catalogue : colonne non utilisée.
+[INFO      ] Global : 76 articles dans la structure commune, dont 63 exploitables (disponibles et avec un prix).
+
+=== Étape : Rapprochement ===
+[CORRECTION] Comptoir Ivoire : CI200 (Samsun Galaxy A15 128Go) : mot 'samsun' reconnu comme 'samsung' (faute de frappe probable), article associé à P01.
+[INFO      ] Global : 76 articles rapprochés sur 76.
+[INFO      ] Marché Lagune : 28 produits du catalogue sur 30 présents. Absents : P18, P29.
+[INFO      ] Baobab Shop : 26 produits du catalogue sur 30 présents. Absents : P08, P13, P21, P25.
+[INFO      ] Comptoir Ivoire : 22 produits du catalogue sur 30 présents. Absents : P03, P05, P07, P10, P17, P18, P19, P30.
+
+=== Étape : Cohérence ===
+[CORRECTION] Marché Lagune : ML-1021 (TECNO SPARK 20 - 128GB) : prix affiché 779 000 FCFA incohérent avec l'historique (dernier prix connu 77 900 FCFA au 31/10/2026, rapport de 10.0). Valeur aberrante, probablement une erreur de saisie : remplacée par le prix de l'historique.
+[INFO      ] Global : 73 prix comparés au dernier prix de l'historique, 1 valeur(s) aberrante(s) corrigée(s).
